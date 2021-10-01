@@ -1,2 +1,5 @@
-# rust_intro
-my first rust trials
+# Rust Training Ground
+
+Things I want to learn:
+
+- [ ] Rust
