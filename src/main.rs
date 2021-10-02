@@ -1,4 +1,8 @@
+mod print;
+
 fn main() {
     let name = "Julian";
-    println!("{}" ,name);
+    println!("{}", name);
+
+    print::run()
 }

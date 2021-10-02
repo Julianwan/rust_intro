@@ -2,4 +2,6 @@
 
 Things I want to learn:
 
-- [ ] Rust
+- [ ] The basics of Rust
+- [ ] What I can do with Rust
+- [ ] Sex On the Beach
