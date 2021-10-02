@@ -2,31 +2,34 @@
 // String = Growable, heap-allocated data structure - Use when you need to modify or own string data
 
 pub fn run() {
-  let mut gay = String::from("Homosexual");
+  let mut tx = String::from("Texan");
 
   // Get Length (will work for either type)
-  println!("Length: {}", gay.len());
+  println!("Length: {}", tx.len());
 
   // Push a single character
-  gay.push('s');
+  tx.push('s');
 
   // Push a string
-  gay.push_str(" rule the world!");
+  tx.push_str(" are tough as nails!");
 
   // Get the capacity (number of bytes it can stores)
-  println!("Capacity: {}", gay.capacity());
+  println!("Capacity: {}", tx.capacity());
 
   // Check if it is empty
-  println!("Is Empty: {}", gay.is_empty());
+  println!("Is Empty: {}", tx.is_empty());
 
   // Check if it contains a substring
-  println!("Contains 'world': {}", gay.contains("world"));
+  println!("Contains 'nails': {}", tx.contains("nails"));
 
   // Replace a part of a string (does not mutate)
-  println!("Replace 'world': {}", gay.replace("world", "gates of hell"));
+  println!(
+    "Replace 'nails': {}",
+    tx.replace("nails", "an iron curtain")
+  );
 
   // Loop through string by whitespace
-  for word in gay.split_whitespace() {
+  for word in tx.split_whitespace() {
     println!("{}", word)
   }
 
@@ -44,5 +47,5 @@ pub fn run() {
 
   println!("{}", j);
 
-  println!("{}", gay)
+  println!("{}", tx)
 }

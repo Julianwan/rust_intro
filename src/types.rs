@@ -42,11 +42,20 @@ pub fn run() {
 
   // Char unicode char
   let a1 = 'a';
-  let cock = '🍆';
-  let cock_code = '\u{1F346}';
+  let eggplant = '🍆';
+  let eggplant_unicode = '\u{1F346}';
 
   println!(
     "{:?}",
-    (x, y, z, is_active, is_greater, a1, cock, cock_code)
+    (
+      x,
+      y,
+      z,
+      is_active,
+      is_greater,
+      a1,
+      eggplant,
+      eggplant_unicode
+    )
   )
 }
